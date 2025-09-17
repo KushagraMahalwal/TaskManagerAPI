@@ -253,9 +253,3 @@ Destroying test database for alias 'default'...
 3. Run tests for a specific app
 python manage.py test api
 
-4. Run a specific test class or method
-# All tests in TaskManagerAPITest
-python manage.py test api.tests.TaskManagerAPITest
-
-# Only a specific test method
-python manage.py test api.tests.TaskManagerAPITest.test_create_task
