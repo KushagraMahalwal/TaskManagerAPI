@@ -230,8 +230,7 @@ python manage.py test
 * Use `Authorization: Bearer <access_token>` in headers.
 * Object-level permissions are enforced in `TaskManagerDetailsView` via `check_object_permissions`.
 
-########################################################################################################
-Running Tests
+## Running Tests
 
 Your Task Manager API includes unit tests for all endpoints. Follow these steps to run them:
 
